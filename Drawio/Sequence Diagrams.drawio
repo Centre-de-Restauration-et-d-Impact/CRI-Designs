@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.14" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.14" pages="3">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -226,6 +226,71 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="300" y="548" as="sourcePoint" />
             <mxPoint x="875.8" y="547.5999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2EwENsBFeRdnxH6V9Vjj" name="Page-3">
+    <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-1" value=":Mobile App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-2" value=":Firebase Firestore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-4" value="Send push notification" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.06;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ixfAbNjJIb_P0UuwFESO-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110.5" y="286" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="286" />
+              <mxPoint x="120" y="296" />
+              <mxPoint x="130" y="216" />
+              <mxPoint x="160" y="216" />
+            </Array>
+            <mxPoint x="275.5999999999999" y="291.53999999999996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-5" value=":Firebase Cloud Messaging" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="190" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-12" value="Register interest" style="html=1;verticalAlign=bottom;endArrow=open;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339.5" y="346" as="sourcePoint" />
+            <mxPoint x="499.5" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" source="ixfAbNjJIb_P0UuwFESO-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="485" />
+              <mxPoint x="95" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-15" value=":User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-16" value="Subscribe to program notifications" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" edge="1" parent="1" target="ixfAbNjJIb_P0UuwFESO-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint" />
+            <mxPoint x="284" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-19" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Sequence Diagram – User Receiving Google Meet Notification&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-21" value="Schedule time-based triggers" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547" y="386" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ixfAbNjJIb_P0UuwFESO-22" value="Show &quot;Google Meet starting soon&quot; message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="ixfAbNjJIb_P0UuwFESO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="540" as="sourcePoint" />
+            <mxPoint x="100" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
