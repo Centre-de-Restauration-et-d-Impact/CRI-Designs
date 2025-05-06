@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.14" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -115,6 +115,118 @@
         </mxCell>
         <mxCell id="zQ8eZVxgcaHtA0OOo_be-6" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Sequence Diagram – Submitting and Approving a Testimony&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="60" width="640" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HIS9P-Sodlr5wA8Jzd1s" name="Page-2">
+    <mxGraphModel dx="1042" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-1" value=":Firestore (Draft)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="5Jhec_saraXhwh3HA-Kq-1">
+          <mxGeometry x="45" y="90" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-2" value=":Notification System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-4" value="Reject Update" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.06;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5Jhec_saraXhwh3HA-Kq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105.20000000000005" y="259.34000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="260" />
+              <mxPoint x="120" y="270" />
+              <mxPoint x="130" y="190" />
+              <mxPoint x="160" y="190" />
+            </Array>
+            <mxPoint x="275.5999999999999" y="265.53999999999996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-5" value=":Super Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-6" value=":Firestore (Live)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="190" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="5Jhec_saraXhwh3HA-Kq-6">
+          <mxGeometry x="45" y="356" width="10" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="675" y="358" width="10" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-9" value="Send Notification to Super Admin" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="359" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="460" y="359" />
+            </Array>
+            <mxPoint x="675" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-12" value="Notify super admin" style="html=1;verticalAlign=bottom;endArrow=open;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;endFill=0;" edge="1" parent="1" target="5Jhec_saraXhwh3HA-Kq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="328" as="sourcePoint" />
+            <mxPoint x="445" y="328.0000000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" source="5Jhec_saraXhwh3HA-Kq-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-15" value=":User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-16" value="Submit new announcement" style="html=1;verticalAlign=bottom;endArrow=blockThin;curved=0;rounded=0;endFill=1;entryX=0.26;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="123" y="302" as="sourcePoint" />
+            <mxPoint x="286.5999999999999" y="300.84000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-18" value="Notify Published" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=-0.02;exitY=0.736;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5Jhec_saraXhwh3HA-Kq-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="121.4" y="585.86" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="586" />
+              <mxPoint x="356.4" y="595.86" />
+              <mxPoint x="366.4" y="515.86" />
+              <mxPoint x="396.4" y="515.86" />
+            </Array>
+            <mxPoint x="444.9999999999999" y="585.004" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-19" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Sequence Diagram – Super Admin Automatic Approval Process&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-21" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="860" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="40" y="514" width="860" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-23" value="[ Super Admin Rejects ]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-25" value="[ No action within 6h ]" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="514" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-28" value="Notify Rejection" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="286" y="490" as="sourcePoint" />
+            <mxPoint x="120" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Jhec_saraXhwh3HA-Kq-29" value="Publish Automatically" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.02;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5Jhec_saraXhwh3HA-Kq-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="548" as="sourcePoint" />
+            <mxPoint x="875.8" y="547.5999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
