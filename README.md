@@ -29,8 +29,6 @@ Define the core structure of the system, including entities, their attributes, m
 Illustrate how components or users interact with the system over time for key scenarios.
 
 - ✅ Sequence Diagram – Submitting and Approving a Testimony
-- ✅ Sequence Diagram – Admin Scheduling a Church Program
-- ✅ Sequence Diagram – User Interacting with a Testimony
 - ✅ Sequence Diagram – Super Admin Automatic Approval Process
 - ✅ Sequence Diagram – User Receiving Google Meet Notification
 
@@ -60,10 +58,3 @@ Visualize system modules, interfaces, and their relationships with external APIs
 
 - ✅ Component Diagram – System Modules and External APIs
 
----
-
-### 🔹 7. Deployment Diagrams
-Describe the physical deployment architecture, including servers, devices, and external integrations.
-
-- ✅ Deployment Diagram – Mobile App and Backend Infrastructure
-- ✅ Deployment Diagram – Notification and Google Meet Services
